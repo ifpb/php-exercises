@@ -1,0 +1,3 @@
+# Exercises
+
+* [Core](core/)
