@@ -1,5 +1,4 @@
 <?php
-
   require 'util.php';
 
   $info = $_GET['info'] ?? 'overview';

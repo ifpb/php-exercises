@@ -1,3 +1,2 @@
 <?php
-
-  // TODO response
+  // TODO

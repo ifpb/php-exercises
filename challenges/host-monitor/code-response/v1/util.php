@@ -7,10 +7,10 @@ function systemInfo(){
   $uptime = str_replace('up ', '', `uptime -p`);
 
   return [
-    'operatingSystem' => $operatingSystem,
-    'hostname' => $hostname,
-    'username' => $username,
-    'uptime' => $uptime
+    'operatingSystem' => trim($operatingSystem),
+    'hostname' => trim($hostname),
+    'username' => trim($username),
+    'uptime' => trim($uptime)
   ];
 }
 
@@ -44,9 +44,9 @@ function cpuStatus(){
 }
 
 function cpuName(){
-  $cpuname = `lscpu`;
+  $cpuname = `cat /proc/cpuinfo  | grep 'name'`;
 
-  $regex = "/Model name:\s+(.+)\n/";
+  $regex = "/model name\s+: (.+)\n/";
   preg_match($regex, $cpuname, $matched);
   $cpu = $matched[1];
 

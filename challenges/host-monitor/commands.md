@@ -1,35 +1,49 @@
 # Commands
 
-## Overview
+```
 $ hostname
 ubuntu-xenial
+```
 
+```
 $ whoami
 ubuntu
+```
 
+```
 $ uptime
 15:42:01 up  2:13,  1 user,  load average: 0.03, 0.01, 0.00
+```
 
+```
 $ uptime -p
 up 2 hours, 18 minutes
+```
 
+```
 $ lsb_release -r
 Release:	16.04
+```
 
+```
 $ lsb_release -c
 Codename:	xenial
+```
 
+```
 $ lsb_release -i
 Distributor ID:	Ubuntu
+```
 
-http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats
-us: running user space processes
-id: processor was idle
-sy: running the kernel
-ni: how much time the CPU spent running user space processes that have been niced
-wa: idle while waiting for an I/O operation to complete
-hi & si: how much time the processor has spent servicing interrupts
-st: how long the virtual CPU has spent waiting for the hypervisor to service another virtual CPU
+```
+# http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats
+# us: running user space processes
+# id: processor was idle
+# sy: running the kernel
+# ni: how much time the CPU spent running user space processes that have been niced
+# wa: idle while waiting for an I/O operation to complete
+# hi & si: how much time the processor has spent servicing interrupts
+# st: how long the virtual CPU has spent waiting for the hypervisor to service another virtual CPU
 $ top -n 1
 
 top - 16:17:35 up 19 min,  1 user,  load average: 0.00, 0.00, 0.00
@@ -56,3 +70,4 @@ KiB Swap:        0 total,        0 free,        0 used.   758512 avail Mem
    16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs  
    17 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns      
    18 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 perf
+```
