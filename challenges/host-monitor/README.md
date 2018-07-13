@@ -28,7 +28,7 @@ A seguir será detalhados os componentes da aplicação.
 ## COMPONENTES
 ---
 
-No Layout da *Figura 1* é possível identificar que existe os painéis de informações do Host selecionado, apresentado através dos recortes das *Figura 3* até a *Figura 5*. Todas as informações necessárias para a construção dessas ilustrações estarão disponibilizadas a seguir. Então, através do código obtido alimente os seguintes componentes:
+No Layout da *Figura 1* é possível identificar que existem os painéis de informações do Host selecionado, apresentado através dos recortes das *Figura 3* até a *Figura 5*. Todas as informações necessárias para a construção dessas ilustrações estarão disponibilizadas a seguir. Então, através do código obtido alimente os seguintes componentes:
 
 **COMPONENTE 1 -**  O Painel de informações do host conforme a *Figura 3*.
 
