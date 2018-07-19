@@ -30,3 +30,28 @@ $ ip -s link
     TX: bytes  packets  errors  dropped carrier collsns
     66026      547      0       0       0       0
 ```
+
+```
+$ sudo netstat -tupanl
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN      1069/mysqld
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      630/rpcbind
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1004/sshd
+tcp        0      0 0.0.0.0:44698           0.0.0.0:*               LISTEN      678/rpc.statd
+tcp        0      0 10.0.2.15:22            10.0.2.2:55723          ESTABLISHED 26350/sshd: vagrant
+tcp6       0      0 :::111                  :::*                    LISTEN      630/rpcbind
+tcp6       0      0 :::80                   :::*                    LISTEN      1304/apache2
+tcp6       0      0 :::22                   :::*                    LISTEN      1004/sshd
+tcp6       0      0 :::60698                :::*                    LISTEN      678/rpc.statd
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           518/dhclient
+udp        0      0 127.0.0.1:854           0.0.0.0:*                           678/rpc.statd
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           630/rpcbind
+udp        0      0 0.0.0.0:47493           0.0.0.0:*                           678/rpc.statd
+udp        0      0 0.0.0.0:55547           0.0.0.0:*                           518/dhclient
+udp        0      0 0.0.0.0:801             0.0.0.0:*                           630/rpcbind
+udp6       0      0 :::111                  :::*                                630/rpcbind
+udp6       0      0 :::54988                :::*                                678/rpc.statd
+udp6       0      0 :::30730                :::*                                518/dhclient
+udp6       0      0 :::801                  :::*                                630/rpcbind
+```
