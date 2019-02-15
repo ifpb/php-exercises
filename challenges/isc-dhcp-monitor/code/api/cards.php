@@ -5,7 +5,7 @@ $result = '[
     "icon": "alert-circle",
     "bg": "bg-danger",
     "name": "Leases Per Second / Minute",
-    "value": "0.35/0.006"
+    "value": "0.005/0.28"
   },
   {
     "icon": "pie-chart",
@@ -17,7 +17,7 @@ $result = '[
     "icon": "cpu",
     "bg": "bg-primary",
     "name": "CPU",
-    "value": 1.5
+    "value": 3.7
   },
   {
     "icon": "server",
