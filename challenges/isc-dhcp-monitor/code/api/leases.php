@@ -1,25 +1,97 @@
 <?php
-$result = '{
-   "active_leases": [
-         { "ip":"192.168.1.10", "macaddress":"08:00:27:81:9c:76" }
-   ],
-   "subnets": [
-         { "location":"office", "range":"10.0.0.1 - 10.0.0.126", "defined":126, "used":0, "touched":0, "free":126 },
-         { "location":"office", "range":"10.0.0.129 - 10.0.0.254", "defined":126, "used":0, "touched":0, "free":126 },
-         { "location":"All networks", "range":"192.168.1.10 - 192.168.1.100", "defined":91, "used":1, "touched":0, "free":90 },
-         { "location":"All networks", "range":"192.168.2.10 - 192.168.2.100", "defined":91, "used":0, "touched":0, "free":91 }
-   ],
-   "shared-networks": [
-         { "location":"office", "defined":252, "used":0, "touched":0, "free":252 }
-   ],
-   "summary": {
-         "location":"All networks",
-         "defined":434,
-         "used":1,
-         "touched":0,
-         "free":433
-   }
-}';
+$result = '[
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 16:38:55",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 16:43:56",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 16:48:55",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 16:53:55",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 16:58:54",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:03:54",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:08:54",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:13:53",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:18:53",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:23:53",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:28:53",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:33:52",
+    "manufacturer": ""
+  },
+  {
+    "mac": "08:00:27:81:9c:76",
+    "ip": "192.168.1.10",
+    "hostname": "dhcpclient1",
+    "valid": "2019-02-14 17:38:51",
+    "manufacturer": ""
+  }
+]';
 
 header("Content-type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Origin: *");
