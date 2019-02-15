@@ -8,7 +8,6 @@ O objetivo do presente desafio consiste em criar um monitoramento do serviço DH
 *Figura 1 - Layout da aplicação de monitoramento.*<br>
 ![Layout da aplicação de monitoramento.](assets/layout.png)
 
-<<<<<<< HEAD
 A princípio já foi disponibilizado o front-end da aplicação Web no arquivo [code.zip](code.zip), contudo o back-end ainda não está implemento dinamicamente. Além disso, é disponibilizado um ambiente virtualizado, ilustrado na Figura 2, por meio do arquivo `Vagrantfile`.
 
 *Figura 2 - Ambiente virtualizado do code.zip.*<br>
@@ -27,24 +26,14 @@ $ vagrant ssh dhcpserver
 ```
 
 Por fim, é importante observar que do total de componentes será exigido a entrega de no mínimo 2 componentes.
-=======
-A princípio já foi disponibilizado o front-end da aplicação Web no arquivo [code.zip](code.zip), contudo o back-end ainda não está implemento dinamicamente. 
-
-É importante observar que do total de componentes será exigido a entrega de no mínimo 2 componentes.
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
 
 ## COMPONENTES
 ---
 
-<<<<<<< HEAD
 **COMPONENTE 1 -** Crie o painel de `cards`, exibido na Figura 4, gerando o JSON dinamicamente por meio do arquivo `api/cards.php`.
 
 *Figura 4 - Painel Top Stats.*<br>
-=======
-**COMPONENTE 1 -** Crie o painel de `cards`, exibido na Figura 2, gerando o JSON dinamicamente por meio do arquivo `api/cards.php`.
 
-*Figura 2 - Painel Top Stats.*<br>
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
 ![Painel Top Stats](assets/component-1.png)
 
 O conteúdo do JSON deve seguir este padrão:
@@ -55,11 +44,7 @@ O conteúdo do JSON deve seguir este padrão:
     "icon": "alert-circle",
     "bg": "bg-danger",
     "name": "Leases Per Second / Minute",
-<<<<<<< HEAD
     "value": "0.005/0.28"
-=======
-    "value": "0.35/0.006"
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
   },
   {
     "icon": "pie-chart",
@@ -71,11 +56,7 @@ O conteúdo do JSON deve seguir este padrão:
     "icon": "cpu",
     "bg": "bg-primary",
     "name": "CPU",
-<<<<<<< HEAD
     "value": 3.7
-=======
-    "value": 1.5
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
   },
   {
     "icon": "server",
@@ -104,7 +85,6 @@ $ hostname
 dhcpserver
 ```
 
-<<<<<<< HEAD
 No comando `top -b n1 | head -n 3 | tail -n 1` pode-se obter o valor da CPU livre por meio do Regexp `/, ([\d\.]*) id,/`, ou seja, `100% - 96.3% (idle)` será igual a `3.7%`:
 
 ```
@@ -114,16 +94,6 @@ $ top -b n1 | head -n 3 | tail -n 1
 ```
 
 Já o comando `dhcp-lease-list` pode contabilizar a quantia de empréstimos pela contagem de endereços MAC via a Regexp `/..(:..){5}/`, ou seja, como só possui o MAC `08:00:27:81:9c:76`, logo o valor de empréstimo é `1`:
-=======
-No comando `top -b n1 | head -n 3 | tail -n 1` pode-se obter o valor da CPU livre por meio do Regexp `/, ([\d\.]*) id,/`:
-
-```
-$ top -b n1 | head -n 3 | tail -n 1
-%Cpu(s):  0.6 us,  0.5 sy,  0.1 ni, 98.6 id,  0.2 wa,  0.0 hi,  0.1 si,  0.0 st
-```
-
-Já o comando `dhcp-lease-list` pode contabilizar a quantia de empréstimos pela contagem de endereços MAC via a Regexp `/..(:..){5}/`:
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
 
 ```
 $ dhcp-lease-list
@@ -153,15 +123,10 @@ $end_date = strtotime($end);
 $diff = abs($end_date - $start_date);
 ```
 
-<<<<<<< HEAD
 **COMPONENTE 2 -** Crie o conteúdo do Painel `Subnets`, exibido na Figura 4, gerando o JSON dinamicamente por meio do arquivo `api/subnets.php`.
 
 *Figura 4 - Painel de Subnets.*<br>
-=======
-**COMPONENTE 2 -** Crie o conteúdo do Painel `Subnets`, exibido na Figura 3, gerando o JSON dinamicamente por meio do arquivo `api/subnets.php`.
 
-*Figura 3 - Painel de Subnets.*<br>
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
 ![Painel de Subnets](assets/component-2.png)
 
 O conteúdo do JSON deve ser a saída do comando:
@@ -191,15 +156,10 @@ $ dhcpd-pools -l /var/lib/dhcp/dhcpd.leases -c /etc/dhcp/dhcpd.conf -f J
 }
 ```
 
-<<<<<<< HEAD
 **COMPONENTE 3 -** Crie o conteúdo do Painel `Leases`, exibido na Figura 5, gerando o JSON dinamicamente por meio do arquivo `api/leases.php`.
 
 *Figura 5 - Painel de Leases.*<br>
-=======
-**COMPONENTE 3 -** Crie o conteúdo do Painel `Leases`, exibido na Figura 4, gerando o JSON dinamicamente por meio do arquivo `api/leases.php`.
 
-*Figura 4 - Painel de Leases.*<br>
->>>>>>> 9a77993da5b5dca276254aea7bd7032d66bcc9a3
 ![Painel de Leases](assets/component-3.png)
 
 O conteúdo do JSON deve possuir esta estrutura:
