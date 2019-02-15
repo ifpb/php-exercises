@@ -24,13 +24,13 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  # config.vm.define "dhcpclient2" do |dhcpclient2|
-  #   dhcpclient2.vm.hostname = "dhcpclient2"
-  #   dhcpclient2.vm.box = "ubuntu/bionic64"
-  #   dhcpclient2.vm.network "private_network", type: "dhcp", virtualbox__intnet: "LanVagrant"
-  #   dhcpclient2.vm.provider "virtualbox" do |vb|
-  #     vb.name = "dhcpclient2"
-  #   end
-  # end
+  config.vm.define "dhcpclient2" do |dhcpclient2|
+    dhcpclient2.vm.hostname = "dhcpclient2"
+    dhcpclient2.vm.box = "ubuntu/bionic64"
+    dhcpclient2.vm.network "private_network", type: "dhcp", virtualbox__intnet: "LanVagrant"
+    dhcpclient2.vm.provider "virtualbox" do |vb|
+      vb.name = "dhcpclient2"
+    end
+  end
 
 end
