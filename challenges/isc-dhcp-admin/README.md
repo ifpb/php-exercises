@@ -117,8 +117,8 @@ Veja que `PARAM` com valor o `status` pode obter o valor do JSON na terceira lin
 
 Quanto a interface será criado no arquivo `/public/templates/dhcp-start-stop.html`, acessível pela URL [localhost:8080/public/index.php](localhost:8080/public/index.php) no menu `Start/Stop/Restart `, cujo o resultado deve se aproximar ao da Figura 4. Para isto, será necessário escrever seu Javascript no arquivo `/public/js/templates/dhcp-start-stop.js`.
 
-<!-- <br>
+<br>
 <br>
 <br>
 
-> [Alternativa de resposta](code-response.zip) -->
+> [Alternativa de resposta](code-response.zip)
