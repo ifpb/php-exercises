@@ -1,21 +1,25 @@
 ### [Numbers series](code.zip)
 
 `{{ page.path | replace:'README.md','' }}code/numbers-for.php`:
+
 ```php
 {% include_relative code/numbers-for.php %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-forfor.php`:
+
 ```php
 {% include_relative code/numbers-forfor.php %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-reverse-for.php`:
+
 ```php
 {% include_relative code/numbers-reverse-for.php %}
 ```
 
 `{{ page.path | replace:'README.md','' }}code/numbers-reverse-odd-for.php`:
+
 ```php
 {% include_relative code/numbers-reverse-odd-for.php %}
 ```

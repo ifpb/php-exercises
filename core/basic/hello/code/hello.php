@@ -5,5 +5,3 @@ $name = 'Alice';
 
 // Output:
 //  hello Alice
-
-?>

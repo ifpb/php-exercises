@@ -1,8 +1,7 @@
 <?php
-// A = πr²
+ // A = πr²
 
-function areaOfCircle($radius) {
+function areaOfCircle($radius)
+{
   return M_PI * $radius ** 2;
 }
-
-?>

@@ -11,5 +11,3 @@ $result;
 // Output:
 //  BMI: 22.038567493113
 //  Result: Normal weight
-
-?>

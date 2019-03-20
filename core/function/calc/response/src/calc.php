@@ -3,7 +3,8 @@
 /**
  * $operator: '+', '-', '*', '/'
  */
-function calc($operand1, $operand2, $operator) {
+function calc($operand1, $operand2, $operator)
+{
   switch ($operator) {
     case '+':
       return $operand1 + $operand2;
@@ -14,12 +15,10 @@ function calc($operand1, $operand2, $operator) {
     case '/':
       return $operand1 / $operand2;
   }
-
-  
 }
 
-function calcWithEval($operand1, $operand2, $operator) {
+function calcWithEval($operand1, $operand2, $operator)
+{
   return eval($operand1 + $operator + $operand2);
 }
-
-?>
+ 
