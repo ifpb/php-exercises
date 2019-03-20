@@ -3,10 +3,8 @@
 - [Running PHP](#running-php)
 - [Basic](#basic-expressions-operators-statements)
 - [Function](#function)
-  <!--
-    - [Array](#array)
-    - [String](#string)
-  -->
+- [Array](#array)
+- [String](#string)
 
 ## Running PHP
 
