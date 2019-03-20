@@ -1,23 +1,25 @@
-import { fibonacci } from './fibonacci-sequence.mjs'
+<?php
+
+require __DIR__ . '/../src/fibonacci-sequence.php';
 
 // Fibonacci series
 
 // making the first 0 numbers
-console.log(fibonacci(0))
-console.log('')
+var_dump(fibonacci(0));
+var_dump('');
 
 // making the first 1 numbers
-console.log(fibonacci(1))
-console.log('0')
+var_dump(fibonacci(1));
+var_dump('0');
 
 // making the first 2 numbers
-console.log(fibonacci(2))
-console.log('0, 1')
+var_dump(fibonacci(2));
+var_dump('0, 1');
 
 // making the first 4 numbers
-console.log(fibonacci(4))
-console.log('0, 1, 1, 2')
+var_dump(fibonacci(4));
+var_dump('0, 1, 1, 2');
 
 // making the first 6 numbers
-console.log(fibonacci(6))
-console.log('0, 1, 1, 2, 3, 5')
+var_dump(fibonacci(6));
+var_dump('0, 1, 1, 2, 3, 5');
