@@ -1,15 +1,15 @@
 ### [Array Operations](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/array-operations.php`:
+`{{ page.path | replace:'README.md','' }}code/src/array-operations.php`:
 
 ```php
-{% include_relative code/array-operations.php %}
+{% include_relative code/src/array-operations.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/array-operations.print.php`:
+`{{ page.path | replace:'README.md','' }}code/print/array-operations.print.php`:
 
 ```php
-{% include_relative code/array-operations.print.php %}
+{% include_relative code/print/array-operations.print.php %}
 ```
 
-> [Response](response/array-operations.php)
+> [Response](response/src/array-operations.php)
