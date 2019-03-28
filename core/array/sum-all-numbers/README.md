@@ -1,15 +1,15 @@
 ### [Sum All Numbers in Array](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/sum-all-numbers-in-array.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/sum-all-numbers-in-array.php`:
 
-```js
-{% include_relative code/src/sum-all-numbers-in-array.js %}
+```php
+{% include_relative code/src/sum-all-numbers-in-array.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/sum-all-numbers-in-array.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/sum-all-numbers-in-array.print.php`:
 
-```js
-{% include_relative code/print/sum-all-numbers-in-array.print.mjs %}
+```php
+{% include_relative code/print/sum-all-numbers-in-array.print.php %}
 ```
 
-> [Response](response/src/sum-all-numbers-in-array.js)
+> [Response](response/src/sum-all-numbers-in-array.php)

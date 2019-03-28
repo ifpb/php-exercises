@@ -1,15 +1,15 @@
 ### [Matrix Operations](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/matrix-operations.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/matrix-operations.php`:
 
-```js
-{% include_relative code/src/matrix-operations.js %}
+```php
+{% include_relative code/src/matrix-operations.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/matrix-operations.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/matrix-operations.print.php`:
 
-```js
-{% include_relative code/print/matrix-operations.print.mjs %}
+```php
+{% include_relative code/print/matrix-operations.print.php %}
 ```
 
-> [Response](response/src/matrix-operations.js)
+> [Response](response/src/matrix-operations.php)

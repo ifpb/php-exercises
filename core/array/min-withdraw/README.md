@@ -1,15 +1,15 @@
 ### [Min withdraw](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/min-withdraw.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/min-withdraw.php`:
 
-```js
-{% include_relative code/src/min-withdraw.js %}
+```php
+{% include_relative code/src/min-withdraw.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/min-withdraw.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/min-withdraw.print.php`:
 
-```js
-{% include_relative code/print/min-withdraw.print.mjs %}
+```php
+{% include_relative code/print/min-withdraw.print.php %}
 ```
 
-> [Response](response/src/min-withdraw.js)
+> [Response](response/src/min-withdraw.php)

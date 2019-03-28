@@ -1,15 +1,15 @@
 ### [Prime Factors](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/prime-factors.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/prime-factors.php`:
 
-```js
-{% include_relative code/src/prime-factors.js %}
+```php
+{% include_relative code/src/prime-factors.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/prime-factors.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/prime-factors.print.php`:
 
-```js
-{% include_relative code/print/prime-factors.print.mjs %}
+```php
+{% include_relative code/print/prime-factors.print.php %}
 ```
 
-> [Response](response/src/prime-factors.js)
+> [Response](response/src/prime-factors.php)

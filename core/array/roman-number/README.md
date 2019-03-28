@@ -1,15 +1,15 @@
 ### [Roman number](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/roman-number.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/roman-number.php`:
 
-```js
-{% include_relative code/src/roman-number.js %}
+```php
+{% include_relative code/src/roman-number.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/roman-number.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/roman-number.print.php`:
 
-```js
-{% include_relative code/print/roman-number.print.mjs %}
+```php
+{% include_relative code/print/roman-number.print.php %}
 ```
 
-> [Response](response/src/roman-number.js)
+> [Response](response/src/roman-number.php)

@@ -1,15 +1,15 @@
 ### [Prime Numbers Array](code.zip)
 
-`{{ page.path | replace:'README.md','' }}code/src/prime-numbers.mjs`:
+`{{ page.path | replace:'README.md','' }}code/src/prime-numbers.php`:
 
-```js
-{% include_relative code/src/prime-numbers.js %}
+```php
+{% include_relative code/src/prime-numbers.php %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/print/prime-numbers.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/prime-numbers.print.php`:
 
-```js
-{% include_relative code/print/prime-numbers.print.mjs %}
+```php
+{% include_relative code/print/prime-numbers.print.php %}
 ```
 
-> [Response](response/src/prime-numbers.js)
+> [Response](response/src/prime-numbers.php)
