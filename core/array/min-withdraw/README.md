@@ -6,10 +6,10 @@
 {% include_relative code/src/min-withdraw.js %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/src/min-withdraw.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/min-withdraw.print.mjs`:
 
 ```js
-{% include_relative code/src/min-withdraw.print.mjs %}
+{% include_relative code/print/min-withdraw.print.mjs %}
 ```
 
 > [Response](response/src/min-withdraw.js)

@@ -38,7 +38,7 @@
 - [Calendar](function/calendar/)
 - [Figure Text](function/figure-text/)
 
-<!-- ## Array
+## Array
 
 ---
 
@@ -54,6 +54,7 @@
 - [Products Array with Quantity](array/products-with-quantity/)
 - [Sum All Numbers in Array](array/sum-all-numbers/)
 
+<!--
 ## String
 
 ---

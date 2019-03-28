@@ -6,10 +6,10 @@
 {% include_relative code/src/products-qtd.js %}
 ```
 
-`{{ page.path | replace:'README.md','' }}code/src/products-qtd.print.mjs`:
+`{{ page.path | replace:'README.md','' }}code/print/products-qtd.print.mjs`:
 
 ```js
-{% include_relative code/src/products-qtd.print.mjs %}
+{% include_relative code/print/products-qtd.print.mjs %}
 ```
 
 > Tips:<br>
