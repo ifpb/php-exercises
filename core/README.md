@@ -5,6 +5,10 @@
 - [Function](#function)
 - [Array](#array)
 - [String](#string)
+- [Math](#math)
+- [Object](#object)
+- [Date](#date)
+- [Regexp](#regexp)
 
 ## Running PHP
 
@@ -73,6 +77,13 @@
 - [Validating CPF](string/validating-cpf/)
 - [Generating CPF](string/generating-cpf/)
 - [Table Convert .md to .html](string/table-convert-md2html/) -->
+
+## Object
+
+---
+
+- [Order](object/order/)
+- [Order Category](object/order-category/)
 
 ## Other tasks
 
