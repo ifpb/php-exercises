@@ -1,0 +1,16 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class Exam {
+  __construct(answer, weight)
+  add(student, answer): voind
+  grade(student): float
+  avg(): float
+  min([count: Number]): Array<int>
+  max([count: Number]): Array<int>
+  lt([limit: Number]): Array<int>
+  gt([limit: Number]): Array<int>
+}
+@enduml
