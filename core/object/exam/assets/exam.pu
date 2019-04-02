@@ -4,13 +4,17 @@ skinparam monochrome true
 hide circle
 
 class Exam {
-  __construct(answer, weight)
-  add(student, answer): voind
-  grade(student): float
-  avg(): float
-  min([count: Number]): Array<int>
-  max([count: Number]): Array<int>
-  lt([limit: Number]): Array<int>
-  gt([limit: Number]): Array<int>
+  -weight: Array<int>
+  -answer: Array<string>
+  -answers: Array<string, string>
+  -grades: Array<float>
+  +__construct(answer, weight)
+  +add(student, answer): voind
+  +grade(student): float
+  +avg(): float
+  +min([count: float]): Array<int>
+  +max([count: float]): Array<int>
+  +lt([limit: float]): Array<int>
+  +gt([limit: float]): Array<int>
 }
 @enduml

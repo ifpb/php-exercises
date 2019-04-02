@@ -1,6 +1,6 @@
 ### [Exam](code.zip)
 
-<img src="assets/exam.svg" alt="Order" width="300">
+<img src="assets/exam.svg" alt="Exam" width="300">
 
 `{{ page.path | replace:'README.md','' }}code/print/exam.print.php`:
 

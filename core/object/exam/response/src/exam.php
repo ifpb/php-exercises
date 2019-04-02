@@ -2,6 +2,10 @@
 
 class Exam
 {
+  public $weight;
+  public $answer;
+  public $answers;
+  public $grades;
 
   public function __construct($answer, $weight)
   {

@@ -82,8 +82,11 @@
 
 ---
 
+- [Company](object/company/)
 - [Order](object/order/)
 - [Order Category](object/order-category/)
+- [Comic](object/comic/)
+- [Exam](object/exam/)
 
 ## Other tasks
 
