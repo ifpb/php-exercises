@@ -34,10 +34,10 @@ Amazon.........1994
 Facebook.......2004
 ```
 
-Para auxiliar todos os teste veja o arquivo `{{ page.path | replace:'README.md','' }}code/src/companies.print.php`:
+Para auxiliar todos os teste veja o arquivo `{{ page.path | replace:'README.md','' }}code/print/companies.print.php`:
 
 ```php
-{% include_relative code/src/companies.print.php %}
+{% include_relative code/print/companies.print.php %}
 ```
 
 > Resposta: [company.php](response/src/company.php) e [companies.php](response/src/companies.php)
