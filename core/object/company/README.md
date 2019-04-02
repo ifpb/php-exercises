@@ -1,6 +1,6 @@
 # Company
 
-Crie uma variável que contenha essas informações:
+Crie uma variável que contenha as informações desta tabela:
 
 | Name          | Founded | Industry                   | kind             |
 | ------------- | ------- | -------------------------- | ---------------- |
@@ -8,25 +8,25 @@ Crie uma variável que contenha essas informações:
 | Alphabet Inc. | 2015    | Search, Cloud, Advertising | Internet company |
 | Facebook      | 2004    | Social                     | Internet company |
 
-Projete uma classe para armazenar os dados anteriores conforme o diagrama a seguir:
+Uma das formas de estruturação desta tabela pode ser por meio da classe do diagrama a seguir:
 
-<img src="assets/company-instance.svg" alt="Company" width="500">
+<img src="assets/company-instance.svg" alt="Company" width="700">
 
-Crie um método `__toString()` conforme o diagrama a seguir:
+Portanto, crie a classe `Company` conforme o diagrama a seguir:
 
-<img src="assets/company.svg" alt="Company" width="400">
+<img src="assets/company.svg" alt="Company" width="450">
 
-para exibir o nome (sempre com tamanho de 15) e ano de fundação da empresa:
+Contudo, o resultado do método `__toString()` deve ser o nome (sempre com tamanho de 15) e ano de fundação da empresa:
 
 ```
 Amazon.........1994
 ```
 
-Crie a classe `Companies` para agrupar uma coleção de `Company`:
+Crie também a classe `Companies` para agrupar uma coleção de `Company`:
 
-<img src="assets/companies.svg" alt="Company" width="400">
+<img src="assets/companies.svg" alt="Company" width="450">
 
-no método `__toString()` o resultado final deve ser:
+no método `__toString()` da classe `Companies` o resultado final deve ser:
 
 ```
 Alphabet Inc...2015

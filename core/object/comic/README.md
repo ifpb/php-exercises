@@ -1,6 +1,6 @@
 ### [Comics](code.zip)
 
-<img src="assets/comics.svg" alt="Comics" width="300">
+<img src="assets/comics.svg" alt="Comics" width="600">
 
 `{{ page.path | replace:'README.md','' }}code/print/comics.print.php`:
 
