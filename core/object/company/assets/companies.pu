@@ -1,0 +1,26 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+hide circle
+
+class Company {
+  -name: String
+  -founded: Int
+  -industry: String
+  -kind: String
+  +__construct(name: String, founded: Int, industry: String, kind: String)
+  +__toString(): String
+  +__get(name: String): Mixed
+  +__set(name: String, value: Mixed)
+}
+
+class Companies {
+  -companies: Array<Company>
+  +add(company: Company): Boolean
+  +foundedAfter(year: Number): Array<Company>
+  +foundedBefore(year: Number): Array<Company>
+  +__toString()(): String
+}
+
+Companies o-- Company
+@enduml
