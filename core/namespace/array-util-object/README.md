@@ -1,5 +1,7 @@
 ### [Array Util (Min, Max, Range, Zip, Uniq)](code.zip)
 
+<img src="assets/ArrayUtil.svg" alt="ArrayUtil Class">
+
 `{{ page.path | replace:'README.md','' }}code/print/ArrayUtil.print.php`:
 
 ```php
