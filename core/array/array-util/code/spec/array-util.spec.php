@@ -11,7 +11,7 @@ describe('Array Util', function () {
   });
 
   xit('finding greatest value in [1, 4, 2, 6, 10, 3]', function () {
-    expect(max([1, 4, 2, 6, 10, 3]))->toBe(10);
+    expect(maximum([1, 4, 2, 6, 10, 3]))->toBe(10);
   });
 
   xit('generating range of numbers from 0 to 10', function () {

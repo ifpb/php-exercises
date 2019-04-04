@@ -1,18 +1,20 @@
 <?php
 
-function minimum($array) 
+namespace ArrayUtil;
+
+function min($array): float
 {
   $minValue = $array[0];
 
   for ($flag = 1; $flag < sizeof($array); $flag++) {
-    if ($minValue > $array[$flag]) 
+    if ($minValue > $array[$flag])
       $minValue = $array[$flag];
   }
 
   return $minValue;
 }
 
-function maximum($array) 
+function max($array): float
 {
   $maxValue = $array[0];
 
@@ -21,12 +23,12 @@ function maximum($array)
       $maxValue = $array[$flag];
   }
 
-  return $maxValue; 
+  return $maxValue;
 }
 
-function rangeValues($length, $last=null, $step=null)
+function range($length, $last = null, $step = null)
 {
-  $begin = is_null($last) ? 0: $length;
+  $begin = is_null($last) ? 0 : $length;
   $end = $last ?? $length;
   $step = $step ?? 1;
   $result = [];
@@ -38,30 +40,24 @@ function rangeValues($length, $last=null, $step=null)
   return $result;
 }
 
-function zip(...$arrays) 
+function zip(...$arrays)
 {
   $result = [];
   for ($index = 0; $index < sizeof($arrays); $index++) {
     $values = [];
-    for ($array = 0; $array < sizeof($arrays); $array++) 
+    for ($array = 0; $array < sizeof($arrays); $array++)
       $values[] = $arrays[$array][$index];
     $result[] = $values;
   }
   return $result;
 }
 
-function uniq($array) 
+function uniq($array)
 {
   $result = [];
   foreach ($array as $value) {
-    if (!in_array($value, $result)) 
+    if (!in_array($value, $result))
       $result[] = $value;
   }
   return $result;
 }
-
-function sortNum($array) 
-{
-  sort($array);
-  return $array;
-} 
